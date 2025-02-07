@@ -76,3 +76,10 @@ section{
   from{border-right-color: rgba(0,0,0,.75);}
   to{border-right-color: transparent;}
 }
+
+@media screen and (max-width: 768px) {
+  .anim-typewriter {
+    animation: none;
+    border-right: none;
+  }
+}
