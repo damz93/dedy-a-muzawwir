@@ -75,8 +75,8 @@
 	<!-- jumbotron -->
 	<section class="jumbotron">
 		<img src="img/dedy_a_muzawwir.png" width="193" class="img-thumbnail rounded-circle" alt="">
-		<h3 class="display-4 mb-3"><b>Dedy</b> A Muzawwir</h3>
-		<p class="line-1 anim-typewriter">Full Stack Developer - Web | Mobile Android | Desktop</p>
+		<h4 class="display-4 mb-3"><b>Dedy</b> A Muzawwir</h4>
+		<p class="line-1 anim-typewriter"><b>Full Stack Developer</b> - Web | Mobile Android | Desktop</p>
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 			<path fill="#ffffff" fill-opacity="1"
 				d="M0,224L0,64L160,64L160,160L320,160L320,192L480,192L480,160L640,160L640,288L800,288L800,128L960,128L960,96L1120,96L1120,224L1280,224L1280,160L1440,160L1440,320L1280,320L1280,320L1120,320L1120,320L960,320L960,320L800,320L800,320L640,320L640,320L480,320L480,320L320,320L320,320L160,320L160,320L0,320L0,320Z">
@@ -841,7 +841,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-3">
+				<!-- <div class="col-md-4 mb-3">
 					<div class="card">
 						<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTtxVIl-wO9_yMZpCCaU_EvmkA-NvrlP2puKobNZaxDhZlTGCrjem8s2Li8cZ_3Ov-fJgr4pAT4INNRAfmGQ2TJbjFNB1MPYFmu5WKS9gDDJwsCBxOPftf6wfrD0wEZYDpOVc_RIsvoxSsyHV2UOhMa7LCdpy_5GiHmirEYW0OHPD8DN0DRgHMHg5PLSc/s1600/ic_launcher.png"
 							class="img-thumbnail" alt="quizioner">
@@ -851,13 +851,12 @@
 								<br>
 								Quizioner adalah sebuah aplikasi Android yang didesain khusus untuk memfasilitasi quiz
 								dan kuisioner secara online...
-								<!-- Button trigger modal -->
+								 Button trigger modal
 								<button type="button" class="btn btn-primary" data-bs-toggle="modal"
 									data-bs-target="#quizioner">
 									Lihat Selengkapnya..
 								</button>
-
-								<!-- Modal -->
+								
 							<div class="modal fade" id="quizioner" data-bs-backdrop="static" data-bs-keyboard="false"
 								tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 								<div class="modal-dialog modal-xl modal-dialog-scrollable">
@@ -918,7 +917,7 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
@@ -991,7 +990,12 @@
 				link.classList.add('active');
 			});
 		});
+		if (window.innerWidth <= 768) {
+			document.querySelector(".anim-typewriter").textContent = "Full Stack Developer \n Web | Mobile Android | Desktop";
+		}
+
 	</script>
+	
 </body>
 
 </html>
