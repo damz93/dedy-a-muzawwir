@@ -66,7 +66,6 @@ section{
 /* Animation */
 .anim-typewriter{
   animation: typewriter 4s steps(30) 1s 1 normal both,blinkTextCursor 500ms steps(30) infinite normal;
-
 }
 
 @keyframes typewriter{
@@ -80,9 +79,8 @@ section{
 
 @media screen and (max-width: 768px) {
   .anim-typewriter {
-    animation: none;
     white-space: pre-line;
-    border-right: none;
+ 
+    animation: none;
   }
-
- }
+}
